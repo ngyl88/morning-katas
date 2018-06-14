@@ -7,7 +7,6 @@ Spaces are not encoded/decoded. For example: "gsrh nvhhztv" will be decoded as "
 
 const getMappedChar = char => {
     if(char === ' ') return ' ';
-
     const alphaSequence = 'abcdefghijklmnopqrstuvwxyz'.split('');
     const originalIndex = alphaSequence.indexOf(char);
     return alphaSequence.reverse()[originalIndex];

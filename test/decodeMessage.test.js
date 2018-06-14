@@ -9,6 +9,7 @@ assertEquals(decodeMessage('svl'), 'heo');
 assertEquals(decodeMessage('abcdefghijklmnopqrstuvwxyz'), 'zyxwvutsrqponmlkjihgfedcba');
 assertEquals(decodeMessage('this message'), 'gsrh nvhhztv');
 assertEquals(decodeMessage('r slkv mlylwb wvxlwvh gsrh nvhhztv'), 'i hope nobody decodes this message');
+assertEquals(decodeMessage('gsv jfrxp yildm ulc qfnkh levi gsv ozab wlt'), 'the quick brown fox jumps over the lazy dog');
 
 // Test cases: actual --> expected
 // decodeMessage("a") --> "z"
